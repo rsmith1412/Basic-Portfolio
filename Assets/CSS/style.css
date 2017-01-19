@@ -1,0 +1,166 @@
+* {
+	box-sizing:border-box;
+	background-color: gray;
+}
+
+header{
+	background color: #4aaaa5;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px;
+	margin: auto;
+	width:100%;
+	height:100%;
+}
+
+h1{
+	background color: #4aaaa5;
+	border: 1px solid-blue;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	float: left;
+
+}
+
+
+body {
+	width: 960px;
+}
+
+p{
+	font-color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #ffffff;
+	margin:auto;
+}
+
+footer{
+	font-color: #ffffff;
+	background-color: #666666;
+	text-align: center;
+	padding: 30px;
+	overflow: auto;
+	border-top: 20px
+	border-color: #4aaaa5;
+	font-size: 10px;
+	bottom:0;
+	width: 100%;
+}
+
+hr{
+	color: gray;
+	width: 100%;
+}
+
+section{
+	margin: 10px auto;
+	
+}
+
+.nav{
+	list-style:none;
+}
+
+ul.nav > li {
+	display: inline-block;
+
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#name{
+	background color: #4aaaa5;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px;
+	margin: 20px,10px;
+
+}
+
+#textLinks{
+	float:right;
+	text-align: center;
+	padding: 20px;
+
+
+}
+
+#mainContent{
+	width: 600px;
+	position:relative;
+	background color: #4aaaa5;
+	border-color: #dddddd;
+	float: left;
+	word-spacing: 2;
+}
+
+#relative{
+	width: 640px;
+	margin-right: 10px;
+}
+
+#sidebar{
+	width: 260px;
+	margin-left: 10px;
+	float:right;
+	position: relative;
+}
+
+.row{
+
+}
+
+.panel-heading{
+	font-color: #4aaaa5;
+	text: 150%;
+}
+
+.simple {
+  width: 500px;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}          
+
+/*html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+/*footer, .push {
+	height: 155px; /* '.push' must be the same height as 'footer' */
+}
+
+/*Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+
+
+Main content background color: #ffffff
+Main content border color: #dddddd
+Fonts:
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+Profile Image Found on index.html:
+Use a picture of yourself.
+If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder.
+Portfolio Images:
+Placeholder images can be found at LoremPixel.
+Save the images to your images folder.
+Social Link Images (Github, LinkedIn, StackOverflow, etc.):
+These images can be found on IconFinder.
+Save the images to your images folder.
+Ensure that these icons are live links to your GitHub, LinkedIn, and Stack Overflow profiles.
+Background Images:
+The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
+Dimensions:
+The entire content area is 960px wide.
+The main section content is 650px wide.
+The sidebar is 270px wide.
+Pro-tip: Use the Page Ruler extension to measure the size of elements.
+
+
