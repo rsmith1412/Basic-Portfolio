@@ -8,7 +8,6 @@ header{
 	border-color: #cccccc;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 20px;
-	margin: auto;
 	width:100%;
 	height:100%;
 }
@@ -29,7 +28,6 @@ p{
 	font-color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-color: #ffffff;
-	margin:auto;
 }
 
 footer{
@@ -51,7 +49,6 @@ hr{
 }
 
 section{
-	margin: 10px auto;
 	
 }
 
@@ -69,17 +66,22 @@ ul.nav > li {
 	margin: 0 auto;
 }
 
+.socMedia{
+	width: 30px;
+	height: 30px;
+}
+
 #name{
 	background color: #4aaaa5;
 	border-color: #cccccc;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 20px;
 	margin: 20px,10px;
-	float:left;
+	display: inline-block;
 
 }
 
-#textLinks{
+.textLinks{
 	float:right;
 	text-align: center;
 	padding: 20px;
@@ -112,8 +114,9 @@ ul.nav > li {
 	clear:both;
 }
 
-.row{
-
+.resize{
+	max-height: 10%;
+	max-width:10%;
 }
 
 .panel-heading{
